@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.note-background {
+  background-image: url('./assets/images/note-bg.jpg');
+}
+
+.mountain-background {
+  background-image: url('./assets/images/mountain-bg.jpg');
+}
+
+.city-background {
+  background-image: url('./assets/images/city-bg.jpg');
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  color: white;
+}
+
+.note-navbar {
+  background-color: rgb(16,34,63);
+}
+
+.mountain-navbar {
+  background-color: #3E2680;
+}
+
+.city-navbar {
+  background-color: rgb(209, 54, 42);
+}
+
+.note-logo, .mountain-logo, .city-logo {
+  height: 80%;
+  width: auto;
+  padding-left: 10px;
+}
+
+.mode-toggle {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding-right: 10px;
+}
+
+.toggle:hover {
+  cursor: pointer;
+}
+
+.note-toggle-active {
+  color: #F9A01B;
+}
+
+.mountain-toggle-active {
+  color: #00A9E0;
+}
+
+.city-toggle-active {
+  color: rgb(245, 197, 76);
+}
+
+@media(max-width: 479px) {
+  .note-background {
+    background-image: url('./assets/images/note-mobile-bg.jpg');
+  }
+
+  .mountain-background {
+    background-image: url('./assets/images/mountain-mobile-bg.jpg');
+  }
+
+  .city-background {
+    background-image: url('./assets/images/city-mobile-bg.jpg');
+  }
+}
