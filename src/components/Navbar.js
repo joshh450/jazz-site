@@ -4,13 +4,20 @@ import MountainLogo from '../assets/images/mountain-logo.png'
 import CityLogo from '../assets/images/city-logo.png'
 
 const Navbar = ({ mode, setMode }) => {
+
+    const changeMode = () => {
+        mode === 'note' && setMode('mountain')
+        mode === 'mountain' && setMode('city')
+        mode === 'city' && setMode('note')
+    }
+
     return (
         <nav className={`${mode}-navbar`}>
             <img 
             src={mode === 'note' ? NoteLogo : mode === 'mountain' ? MountainLogo : CityLogo} alt="Logo"
             className={`${mode}-logo`}
             />
-            <div className="mode-toggle">
+            <div className="mode-toggle-desktop">
                 <span 
                     className={`toggle ${mode === 'note' && 'note-toggle-active'}`} 
                     onClick={() => setMode('note')}
@@ -30,6 +37,9 @@ const Navbar = ({ mode, setMode }) => {
                     City Mode
                 </span>
             </div>
+            <button onClick={() => changeMode()} className={`mode-toggle-mobile ${mode}-toggle-active`}>
+                {mode.charAt(0).toUpperCase() + mode.slice(1)} Mode
+            </button>
         </nav>
     )
 }

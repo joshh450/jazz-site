@@ -3,7 +3,7 @@
         {
             "against": "San Antonio Spurs",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/SAS.svg",
-            "date": "Thursday, August 13",
+            "date": "Thu, Aug 13",
             "time": "4:30 PM",
             "outcome": "W",
             "score": "118-112"
@@ -11,7 +11,7 @@
         {
             "against": "Dallas Mavericks",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/DAL.svg",
-            "date": "Monday, August 10",
+            "date": "Mon, Aug 10",
             "time": "1:00 PM",
             "outcome": "L",
             "score": "114-122"
@@ -19,7 +19,7 @@
         {
             "against": "Denver Nuggets",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/DEN.svg",
-            "date": "Saturday, August 08",
+            "date": "Sat, Aug 08",
             "time": "1:30 PM",
             "outcome": "L",
             "score": "132-134"
@@ -27,7 +27,7 @@
         {
             "against": "San Antonio Spurs",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/SAS.svg",
-            "date": "Friday, August 07",
+            "date": "Fri, Aug 07",
             "time": "11:00 AM",
             "outcome": "L",
             "score": "111-119"
@@ -35,7 +35,7 @@
         {
             "against": "Memphis Grizzlies",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/MEM.svg",
-            "date": "Wednesday, August 05",
+            "date": "Wed, Aug 05",
             "time": "12:30 PM",
             "outcome": "W",
             "score": "124-115"
@@ -43,7 +43,7 @@
         {
             "against": "Los Angeles Lakers",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/LAL.svg",
-            "date": "Monday, August 03",
+            "date": "Mon, Aug 03",
             "time": "7:00 PM",
             "outcome": "L",
             "score": "108-116"
@@ -51,7 +51,7 @@
         {
             "against": "Oklahoma City Thunder",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/OKC.svg",
-            "date": "Saturday, August 01",
+            "date": "Sat, Aug 01",
             "time": "1:30 PM",
             "outcome": "L",
             "score": "94-110"
@@ -59,7 +59,7 @@
         {
             "against": "New Orleans Pelicans",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/NOP.svg",
-            "date": "Thursday, July 30",
+            "date": "Thu, Jul 30",
             "time": "4:30 PM",
             "outcome": "W",
             "score": "106-104"
@@ -67,7 +67,7 @@
         {
             "against": "Toronto Raptors",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/TOR.svg",
-            "date": "Monday, March 09",
+            "date": "Mon, Mar 09",
             "time": "7:00 PM",
             "outcome": "L",
             "score": "92-101"
@@ -75,10 +75,50 @@
         {
             "against": "Detroit Pistons",
             "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/DET.svg",
-            "date": "Saturday, March 07",
+            "date": "Sat, Mar 07",
             "time": "5:00 PM",
             "outcome": "W",
             "score": "111-105"
+        },
+        {
+            "against": "Boston Celtics",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/BOS.svg",
+            "date": "Fri, Mar 06",
+            "time": "6:00 PM",
+            "outcome": "W",
+            "score": "99-94"
+        },
+        {
+            "against": "New York Knicks",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/NYK.svg",
+            "date": "Wed, Mar 04",
+            "time": "5:30 PM",
+            "outcome": "W",
+            "score": "112-104"
+        },
+        {
+            "against": "Cleveland Cavaliers",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/CLE.svg",
+            "date": "Mon, Mar 02",
+            "time": "7:00 PM",
+            "outcome": "W",
+            "score": "126-113"
+        },
+        {
+            "against": "Washington Wizards",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/WAS.svg",
+            "date": "Fri, Feb 28",
+            "time": "7:00 PM",
+            "outcome": "W",
+            "score": "129-119"
+        },
+        {
+            "against": "Boston Celtics",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/BOS.svg",
+            "date": "Wed, Feb 26",
+            "time": "8:30 PM",
+            "outcome": "L",
+            "score": "103-114"
         }
     ],
 
