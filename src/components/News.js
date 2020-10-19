@@ -2,16 +2,28 @@ import React from 'react'
 import teamData from '../teamData.json'
 
 const News = ({ mode }) => {
-    const mappedPlayers = teamData.players.map((player, i) => {
-        return(
-            <div className="roster-item" key={i}>
-                <img className="player-image" src={player.image} alt={player.name}/>
-                <span className="player-name">{player.name}</span>
-                <span className={`player-number ${mode}-text-accent`}>{player.number}</span>
-                <span className="player-position">{player.position}</span>
-                <span className="player-height">{player.height}</span>
-            </div>
-        )
+    const mappedPlayers = teamData.news.map((article, i) => {
+        if(i === 0) {
+            return(
+                <div className="news-featured-item" key={i}>
+                    <img className="news-featured-image" src={article.image} alt={article.headline}/>
+                    <h1 className={`news-featured-headline ${mode}-text-accent`}>{article.headline}</h1>
+                    <span className="news-featured-date">{article.date}</span>
+                    <p className="news-featured-description">{article.description}</p>
+                </div>
+            )
+        } else {
+            return(
+                <div className="news-item" key={i}>
+                    <img className="news-image" src={article.image} alt={article.headline}/>
+                    <div className="news-content-wrap">
+                        <h3 className={`news-headline ${mode}-text-accent`}>{article.headline}</h3>
+                        <span className="news-date">{article.date}</span>
+                        <p className="news-description">{article.description}</p>
+                    </div>
+                </div>
+            )
+        }
     })
 
     return (

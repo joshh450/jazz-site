@@ -2,14 +2,15 @@ import React from 'react'
 import teamData from '../teamData.json'
 
 const Schedule = ({ mode }) => {
-    const mappedPlayers = teamData.players.map((player, i) => {
+    const mappedSchedule = teamData.schedule.map((game, i) => {
         return(
-            <div className="roster-item" key={i}>
-                <img className="player-image" src={player.image} alt={player.name}/>
-                <span className="player-name">{player.name}</span>
-                <span className={`player-number ${mode}-text-accent`}>{player.number}</span>
-                <span className="player-position">{player.position}</span>
-                <span className="player-height">{player.height}</span>
+            <div className="schedule-item" key={i}>
+                <img className="schedule-image" src={game.againstImage} alt={game.against}/>
+                <span className="schedule-name">{game.against}</span>
+                <span className={`schedule-outcome ${game.outcome}-outcome`}>{game.outcome}</span>
+                <span className="schedule-date">{game.date}</span>
+                <span className="schedule-time">{game.time}</span>
+                <span className={`schedule-score ${mode}-text-accent`}>{game.score}</span>
             </div>
         )
     })
@@ -17,7 +18,7 @@ const Schedule = ({ mode }) => {
     return (
         <section>
             <h3 className={`section-header ${mode}-text-accent`}>Schedule</h3>
-            {mappedPlayers}
+            {mappedSchedule}
         </section>
     )
 }

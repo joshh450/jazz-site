@@ -22,7 +22,7 @@ body {
 }
 
 .city-background {
-  background-image: url('./assets/images/city-bg.jpg');
+  background-image: url('./assets/images/city-bg.jpeg');
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
 }
 
 .city-navbar {
-  background-color: rgb(209, 54, 42);
+  background-color: rgb(188, 53, 48);
 }
 
 .note-logo, .mountain-logo, .city-logo {
@@ -75,6 +75,18 @@ nav {
   color: rgb(245, 197, 76);
 }
 
+.note-text-accent {
+  color: rgb(16,34,63);
+}
+
+.mountain-text-accent {
+  color: #3E2680;
+}
+
+.city-text-accent {
+  color: rgb(209, 54, 42);
+}
+
 .page-content {
   width: 100vw;
   display: grid;
@@ -87,22 +99,110 @@ nav {
 
 section {
   height: calc(100vh - 130px);
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.9);
   margin: 25px;
   border-radius: 6px;
   overflow: scroll;
 }
 
-.note-text-accent {
-  color: rgb(16,34,63);
+.schedule-item {
+  display: grid;
+  height: 82px;
+  grid-template-columns: 80px 1fr 35px;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-top: 1px solid gray;
 }
 
-.mountain-text-accent {
-  color: #3E2680;
+.schedule-image {
+  height: 100%;
+  height: 68px;
+  grid-row: 1/5;
 }
 
-.city-text-accent {
-  color: rgb(209, 54, 42);
+.schedule-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.schedule-outcome {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 5px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.W-outcome {
+  color: green;
+}
+
+.L-outcome {
+  color: red;
+}
+
+.schedule-time {
+  grid-row: 3/4;
+}
+
+.schedule-score {
+  grid-row: 4/5;
+  font-weight: bold;
+}
+
+.news-featured-item {
+  border-bottom: 1px solid gray;
+}
+
+.news-featured-item:hover {
+  cursor: pointer;
+}
+
+.news-featured-image {
+  width: 100%;
+}
+
+.news-featured-headline {
+  margin: 5px 0 0 5px;
+}
+
+.news-featured-date {
+  color: rgb(88, 88, 88);
+  margin-left: 5px;
+}
+
+.news-featured-description {
+  margin: 10px 5px;
+}
+
+.news-item {
+  display: flex;
+  padding: 5px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.news-item:hover {
+  cursor: pointer;
+}
+
+.news-content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.news-item:nth-child(even) img{
+  order: 2;
+}
+
+.news-image {
+  width: 50%;
+}
+
+.news-date {
+  color: rgb(88, 88, 88);
 }
 
 .roster-item {
@@ -139,8 +239,11 @@ section {
 }
 
 @media(max-width: 1366px) {
-  .player-name, .player-position, .player-height {
+  .player-name, .player-position, .player-height, .schedule-name, .schedule-date, .schedule-time, .schedule-score, .news-featured-date, .news-date, .news-featured-description, .news-description {
     font-size: 14px;
+  }
+  .news-headline {
+    margin: 5px 0px 0px 0px;
   }
   .player-number {
     font-size: 18px;

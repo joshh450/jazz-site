@@ -1,4 +1,138 @@
 {
+    "schedule": [
+        {
+            "against": "San Antonio Spurs",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/SAS.svg",
+            "date": "Thursday, August 13",
+            "time": "4:30 PM",
+            "outcome": "W",
+            "score": "118-112"
+        },
+        {
+            "against": "Dallas Mavericks",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/DAL.svg",
+            "date": "Monday, August 10",
+            "time": "1:00 PM",
+            "outcome": "L",
+            "score": "114-122"
+        },
+        {
+            "against": "Denver Nuggets",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/DEN.svg",
+            "date": "Saturday, August 08",
+            "time": "1:30 PM",
+            "outcome": "L",
+            "score": "132-134"
+        },
+        {
+            "against": "San Antonio Spurs",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/SAS.svg",
+            "date": "Friday, August 07",
+            "time": "11:00 AM",
+            "outcome": "L",
+            "score": "111-119"
+        },
+        {
+            "against": "Memphis Grizzlies",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/MEM.svg",
+            "date": "Wednesday, August 05",
+            "time": "12:30 PM",
+            "outcome": "W",
+            "score": "124-115"
+        },
+        {
+            "against": "Los Angeles Lakers",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/LAL.svg",
+            "date": "Monday, August 03",
+            "time": "7:00 PM",
+            "outcome": "L",
+            "score": "108-116"
+        },
+        {
+            "against": "Oklahoma City Thunder",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/OKC.svg",
+            "date": "Saturday, August 01",
+            "time": "1:30 PM",
+            "outcome": "L",
+            "score": "94-110"
+        },
+        {
+            "against": "New Orleans Pelicans",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/NOP.svg",
+            "date": "Thursday, July 30",
+            "time": "4:30 PM",
+            "outcome": "W",
+            "score": "106-104"
+        },
+        {
+            "against": "Toronto Raptors",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/TOR.svg",
+            "date": "Monday, March 09",
+            "time": "7:00 PM",
+            "outcome": "L",
+            "score": "92-101"
+        },
+        {
+            "against": "Detroit Pistons",
+            "againstImage": "https://i.cdn.turner.com/nba/nba/assets/logos/teams/secondary/web/DET.svg",
+            "date": "Saturday, March 07",
+            "time": "5:00 PM",
+            "outcome": "W",
+            "score": "111-105"
+        }
+    ],
+
+    "news": [
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/sergi.jpg?w=1200&h=675",
+            "headline": "Jazz add Sergi Oliva to coaching staff",
+            "date": "October 16, 2020",
+            "description": "The Utah Jazz announced today that the team has added Sergi Oliva to its coaching staff. Oliva joins the Jazz after spending the past six seasons..."
+        },
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/bobby_marks_thumb.jpg?cw=462&ch=347&w=636&h=347&x=163&y=0",
+            "headline": "Roundball Roundup: Bobby Marks on the Jazz's offseason",
+            "date": "October 16, 2020",
+            "description": "With the Lakers winning the title, it is officially the NBA offseason. What are the moves and objectives for the club before next year? JP takes a..."
+        },
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/getty-images-1228304595.jpg?cw=462&ch=347&w=521&h=347&x=24&y=0",
+            "headline": "Donovan Mitchell part of campaign to 'change the way the world sees and treats...",
+            "date": "October 9, 2020",
+            "description": "Utah Jazz guard Donovan Mitchell is continuing to use his voice in the fight for change and social justice. The 24-year-old All-Star has joined NBA..."
+        },
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/joy_taylor_thumb.jpg?cw=462&ch=347&w=636&h=347&x=87&y=0",
+            "headline": "Roundball Roundup: Joy Taylor on the NBA Finals",
+            "date": "October 7, 2020",
+            "description": "Can #HeatCulture be replicated? JP thinks so. He dives into Miami with Joy Taylor, co-host of The Herd, to talk about the NBA Finals. Here’s a..."
+        },
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/getty-images-1228177379.jpg?cw=462&ch=347&w=521&h=347&x=30&y=0",
+            "headline": "Donovan Mitchell and his mother surprise two schools with gifts on World...",
+            "date": "October 5, 2020",
+            "description": "After quarantining at home last spring, Utah Jazz guard Donovan Mitchell had the chance to see a teacher work through the challenges of educating..."
+        },
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/mike_elliott_thumb1.jpg?cw=462&ch=347&w=636&h=347&x=42&y=0",
+            "headline": "Ingles Insight: Mike Elliott helps deliver Joe's birthday present from Renae",
+            "date": "September 28, 2020",
+            "description": "The crew is back from the bubble, and ready to entertain. Aaron and Joe explain what they’ve been up to since coming back from the bubble. Plus, Mike..."
+        },
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/dempsdooling.jpg?cw=462&ch=347&w=622&h=347&x=80&y=0",
+            "headline": "Jazz Add Demps and Dooling to Coaching Staff",
+            "date": "September 25, 2020",
+            "description": "The Utah Jazz announced today that the team has added Dell Demps and Keyon Dooling to its coaching staff. “I was fortunate to work with Dell to begin..."
+        },
+        {
+            "image": "https://www.nba.com/jazz/sites/jazz/files/getty-images-1228304731.jpg?cw=462&ch=347&w=521&h=347&x=30&y=0",
+            "headline": "Utah Jazz players encourage fans to register to vote",
+            "date": "September 22, 2020",
+            "description": "Inside the Utah Jazz locker room, veteran point Mike Conley is always ready to offer a bit of advice to the younger players, drawing on his..."
+        }
+    ],
+
     "players": [
         {
             "name": "Bojan Bogdanovic",
