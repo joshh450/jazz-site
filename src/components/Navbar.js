@@ -14,8 +14,8 @@ const Navbar = ({ mode, setMode }) => {
     return (
         <nav className={`${mode}-navbar`}>
             <img 
-            src={mode === 'note' ? NoteLogo : mode === 'mountain' ? MountainLogo : CityLogo} alt="Logo"
-            className={`${mode}-logo`}
+                src={mode === 'note' ? NoteLogo : mode === 'mountain' ? MountainLogo : CityLogo} alt="Logo"
+                className={`${mode}-logo`}
             />
             <div className="mode-toggle-desktop">
                 <span 

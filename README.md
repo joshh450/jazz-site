@@ -1,3 +1,11 @@
+# Utah Jazz Mock Landing Page
+
+Created a simple React Project for a mock landing page for the Jazz. It shows their last 15 games on the left, news in the middle, and the roster on the right. It's also responsive to all of the most common web and mobile sizes.
+
+The site was built in just a few hours, and can be found at the following link: https://jazz-site.netlify.app/
+
+## React Information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
