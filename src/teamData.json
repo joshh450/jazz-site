@@ -5,9 +5,6 @@
             "number": 44,
             "position": "Forward",
             "height": "6'8",
-            "weight": "226lbs",
-            "from": "Croatia",
-            "years": 5,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202711.png"
         },
         {
@@ -15,9 +12,6 @@
             "number": 13,
             "position": "Center-Forward",
             "height": "6'10",
-            "weight": "248lbs",
-            "from": "USA",
-            "years": 2,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628396.png"
         },
         {
@@ -25,9 +19,6 @@
             "number": 5,
             "position": "Forward",
             "height": "6'5",
-            "weight": "250lbs",
-            "from": "USA",
-            "years": 0,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629714.png"
         },
         {
@@ -35,9 +26,6 @@
             "number": "00",
             "position": "Guard",
             "height": "6'4",
-            "weight": "194lbs",
-            "from": "USA",
-            "years": 5,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203903.png"
         },
         {
@@ -45,9 +33,6 @@
             "number": 10,
             "position": "Guard",
             "height": "6'1",
-            "weight": "175lbs",
-            "from": "USA",
-            "years": 12,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201144.png"
         },
         {
@@ -55,9 +40,6 @@
             "number": 17,
             "position": "Center-Forward",
             "height": "6'9",
-            "weight": "218lbs",
-            "from": "USA",
-            "years": 9,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202334.png"
         },
         {
@@ -65,9 +47,6 @@
             "number": 27,
             "position": "Center",
             "height": "7'1",
-            "weight": "258lbs",
-            "from": "France",
-            "years": 6,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203497.png"
         },
         {
@@ -75,9 +54,6 @@
             "number": 2,
             "position": "Forward-Guard",
             "height": "6'7",
-            "weight": "220lbs",
-            "from": "Australia",
-            "years": 5,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/204060.png"
         },
         {
@@ -85,9 +61,6 @@
             "number": 45,
             "position": "Guard",
             "height": "6'1",
-            "weight": "215lbs",
-            "from": "USA",
-            "years": 2,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628378.png"
         },
         {
@@ -95,9 +68,6 @@
             "number": 16,
             "position": "Forward",
             "height": "6'7",
-            "weight": "232lbs",
-            "from": "USA",
-            "years": 0,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629752.png"
         },
         {
@@ -105,9 +75,6 @@
             "number": 15,
             "position": "Guard",
             "height": "6'3",
-            "weight": "200lbs",
-            "from": "DRC",
-            "years": 4,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626144.png"
         },
         {
@@ -115,9 +82,6 @@
             "number": 31,
             "position": "Forward",
             "height": "6'7",
-            "weight": "230lbs",
-            "from": "USA",
-            "years": 3,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627777.png"
         },
         {
@@ -125,18 +89,13 @@
             "number": 23,
             "position": "Forward",
             "height": "6'4",
-            "weight": "226lbs",
-            "from": "USA",
-            "years": 2,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626220.png"
         },
         {
             "name": "Miye Oni",
             "number": 81,
+            "position": "Guard-Forward",
             "height": "6'5",
-            "weight": "206lbs",
-            "from": "USA",
-            "years": 0,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629671.png"
         },
         {
@@ -144,9 +103,6 @@
             "number": 6,
             "position": "Guard",
             "height": "6'3",
-            "weight": "209lbs",
-            "from": "USA",
-            "years": 0,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629730.png"
         },
         {
@@ -154,9 +110,6 @@
             "number": 0,
             "position": "Guard",
             "height": "6'2",
-            "weight": "190lbs",
-            "from": "USA",
-            "years": 0,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628430.png"
         },
         {
@@ -164,9 +117,6 @@
             "number": 3,
             "position": "Guard",
             "height": "6'0",
-            "weight": "190lbs",
-            "from": "USA",
-            "years": 0,
             "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629625.png"
         }
     ]

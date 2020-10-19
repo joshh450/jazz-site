@@ -6,11 +6,11 @@ body {
 }
 
 .App {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .note-background {
@@ -81,19 +81,64 @@ nav {
   grid-template-columns: 1fr 2fr 1fr;
 }
 
+.section-header {
+  margin: 5px 0px 5px 3px;
+}
+
 .roster {
-  background-color: white;
-  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  margin: 25px;
+}
+
+.note-text-accent {
+  color: rgb(16,34,63);
+}
+
+.mountain-text-accent {
+  color: #3E2680;
+}
+
+.city-text-accent {
+  color: rgb(209, 54, 42);
 }
 
 .roster-item {
-  display: flex;
-  flex-direction: column;
-  margin: 5px 0px;
+  display: grid;
+  height: 68px;
+  grid-template-columns: 80px 1fr 35px;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-top: 1px solid gray;
 }
 
-.roster-player-image {
-  width: 75px;
+.player-image {
+  display: flex;
+  align-self: flex-end;
+  height: 58px;
+  grid-row: 1/4;
+}
+
+.player-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.player-number {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 5px;
+  font-size: 22px;
+}
+
+.player-height {
+  grid-row: 3/4;
+}
+
+@media(max-width: 1366px) {
+  .player-name, .player-position, .player-height {
+    font-size: 14px;
+  }
 }
 
 @media(max-width: 479px) {

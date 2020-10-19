@@ -1,7 +1,7 @@
 import React from 'react'
 import teamData from '../teamData.json'
 
-const Roster = ({ mode }) => {
+const News = ({ mode }) => {
     const mappedPlayers = teamData.players.map((player, i) => {
         return(
             <div className="roster-item" key={i}>
@@ -16,10 +16,10 @@ const Roster = ({ mode }) => {
 
     return (
         <div className="roster">
-            <h3 className={`section-header ${mode}-text-accent`}>Roster</h3>
+            <h3 className={`section-header ${mode}-text-accent`}>News</h3>
             {mappedPlayers}
         </div>
     )
 }
 
-export default Roster;
+export default News
