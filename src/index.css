@@ -142,6 +142,9 @@ section {
   .player-name, .player-position, .player-height {
     font-size: 14px;
   }
+  .player-number {
+    font-size: 18px;
+  }
 }
 
 @media(max-width: 479px) {
