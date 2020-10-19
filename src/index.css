@@ -85,9 +85,12 @@ nav {
   margin: 5px 0px 5px 3px;
 }
 
-.roster {
+section {
+  height: calc(100vh - 130px);
   background-color: rgba(255, 255, 255, 0.95);
   margin: 25px;
+  border-radius: 6px;
+  overflow: scroll;
 }
 
 .note-text-accent {

@@ -15,10 +15,10 @@ const Roster = ({ mode }) => {
     })
 
     return (
-        <div className="roster">
+        <section>
             <h3 className={`section-header ${mode}-text-accent`}>Roster</h3>
             {mappedPlayers}
-        </div>
+        </section>
     )
 }
 

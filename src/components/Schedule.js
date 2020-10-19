@@ -15,10 +15,10 @@ const Schedule = ({ mode }) => {
     })
 
     return (
-        <div className="roster">
+        <section>
             <h3 className={`section-header ${mode}-text-accent`}>Schedule</h3>
             {mappedPlayers}
-        </div>
+        </section>
     )
 }
 
